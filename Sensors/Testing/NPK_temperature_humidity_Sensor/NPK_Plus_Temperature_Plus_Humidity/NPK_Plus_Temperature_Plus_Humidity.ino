@@ -15,7 +15,7 @@
 
 // NPK sensor byteArrays
 /* Address Code = AddC, Function Code = FunC, Effective number of bytes = ENoB,
- *  Nitrogen/Phosphorus/Potassium content = NPKC, CRC_L = CRCL, CRC_H = CRCH,
+ *  Nitrogen/Phosphorus/Potassium content = NPKC, CRC_L = CRCL, CRC_H = CRCH
  */
 
 const byte nitro[] = {0x01,0x03, 0x00, 0x1e, 0x00, 0x01, 0xe4, 0x0c};
