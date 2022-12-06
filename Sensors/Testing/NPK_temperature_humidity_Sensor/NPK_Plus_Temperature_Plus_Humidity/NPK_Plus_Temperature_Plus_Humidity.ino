@@ -39,7 +39,7 @@ void loop() {
   // put your main code here, to run repeatedly:
 
 }
-
+//NPK Calculations
 byte nitrogen(){
   digitalWrite(DE,HIGH); digitalWrite(RE,HIGH);
   delay(10);
@@ -66,3 +66,8 @@ byte potassium(){
     for(byte i=0;i<7;i++){values[i] = mod.read();}
   }return values[4];
 }
+
+// Humidity, Temperature and HeatIndex Calculation
+float Humidity(){return dht.readHumidity();}
+float Temperature(){return dht.readTemperature();}
+float HeatIndex(float t, float h){return dht.computeHeatIndex(t, h, false);}
