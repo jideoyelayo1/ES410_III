@@ -36,11 +36,23 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-
+  byte nitrogenValue,phosphorousValue,potassiumValue; 
+  float temperature,humidity,heatIndex;
+  nitrogenValue = GetNitrogen();delay(250);
+  phosphorousValue = GetPhosphorous();delay(250);
+  potassiumValue = GetPotassium();delay(250);
+  temperature = Temperature(); humidity = Humidity();heatIndex = HeatIndex(temperature,humidity);
+  Serial.println("------------------------------------------------------");
+  Serial.print("Nitrogen: ");Serial.print(nitrogenValue); Serial.println(" mg/kg"); 
+  Serial.print("Phosphorous: ");Serial.print(phosphorousValue); Serial.println(" mg/kg");
+  Serial.print("Potassium: "); Serial.print(potassiumValue); Serial.println(" mg/kg");
+  Serial.print("Temperature: "); Serial.print(temperature); Serial.println(" C");
+  Serial.print("Humidity: "); Serial.print(humidity); Serial.println(" %");
+  Serial.print("Heat Index: "); Serial.print(heatIndex); Serial.println(" C");
+  delay(2000);
 }
 //NPK Calculations
-byte nitrogen(){
+byte GetNitrogen(){
   digitalWrite(DE,HIGH); digitalWrite(RE,HIGH);
   delay(10);
   if(mod.write(nitro,sizeof(nitro))==8){
@@ -49,7 +61,7 @@ byte nitrogen(){
   }return values[4];
 }
 
-byte phosphorous(){
+byte GetPhosphorous(){
   digitalWrite(DE,HIGH); digitalWrite(RE,HIGH);
   delay(10);
   if(mod.write(phos,sizeof(phos))==8){
@@ -58,7 +70,7 @@ byte phosphorous(){
   }return values[4];
 }
 
-byte potassium(){
+byte GetPotassium(){
   digitalWrite(DE,HIGH); digitalWrite(RE,HIGH);
   delay(10);
   if(mod.write(pota,sizeof(pota))==8){
