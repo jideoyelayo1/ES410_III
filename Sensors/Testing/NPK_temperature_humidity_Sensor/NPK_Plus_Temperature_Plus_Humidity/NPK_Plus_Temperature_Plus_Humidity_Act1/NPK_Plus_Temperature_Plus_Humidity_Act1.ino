@@ -36,8 +36,9 @@ void setup() {
 }
 
 void loop() {
-  
-}
+  GetReadings();
+  delay(2000);
+  }
 void GetReadings(){
   byte nitrogenValue,phosphorousValue,potassiumValue; 
   float temperature,humidity,heatIndex;
@@ -52,7 +53,6 @@ void GetReadings(){
   Serial.print("Temperature: "); Serial.print(temperature); Serial.println(" C");
   Serial.print("Humidity: "); Serial.print(humidity); Serial.println(" %");
   Serial.print("Heat Index: "); Serial.print(heatIndex); Serial.println(" C");
-  delay(2000);
 }
 //NPK Calculations
 byte GetNitrogen(){
