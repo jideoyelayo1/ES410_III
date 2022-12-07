@@ -26,6 +26,10 @@ byte values[11];
 SoftwareSerial mod(RO,DI);
 DHT dht(DHTPIN, DHTTYPE);
 
+// text to be dislayed to serial
+char text[100];
+// 
+float readings[] = { 0, 0, 0, 0, 0, 0};
 
 void setup() {
   Serial.begin(9600);
@@ -36,10 +40,31 @@ void setup() {
 }
 
 void loop() {
+  //PrintReadingsToSerial(); delay(2000);
+  GenerateReadingsAndDisplayToSerial();delay(2000);
+  }
+void GenerateReadingsAndDisplayToSerial(){
+  Serial.println("Reading values...");
   GetReadings();
-  delay(2000);
+  sprintf(text, "NPK values\nN: %d, P: %d, K: %d\nTemperature: %d, Humidity: %d, HeatIndex: %d",
+  (int)readings[0],(int)readings[1],(int)readings[2],(int)readings[3],(int)readings[4],(int)readings[5]);
+  // sprintf can not handle floats so this is just to test the output
+  Serial.println(text);
+  Serial.println("------------------------------------------------");
   }
 void GetReadings(){
+  byte nitrogenValue,phosphorousValue,potassiumValue; 
+  float temperature,humidity,heatIndex;
+  nitrogenValue = GetNitrogen();delay(250);
+  phosphorousValue = GetPhosphorous();delay(250);
+  potassiumValue = GetPotassium();delay(250);
+  temperature = Temperature(); humidity = Humidity(); heatIndex = HeatIndex(temperature,humidity);
+  float out[] = { (float) nitrogenValue, (float) phosphorousValue,(float) potassiumValue, 
+  (float) temperature, (float) humidity, (float) heatIndex};
+  for(int i = 0; i < 6; i++) readings[i] = out[i];
+  }
+  
+void PrintReadingsToSerial(){
   byte nitrogenValue,phosphorousValue,potassiumValue; 
   float temperature,humidity,heatIndex;
   nitrogenValue = GetNitrogen();delay(250);
