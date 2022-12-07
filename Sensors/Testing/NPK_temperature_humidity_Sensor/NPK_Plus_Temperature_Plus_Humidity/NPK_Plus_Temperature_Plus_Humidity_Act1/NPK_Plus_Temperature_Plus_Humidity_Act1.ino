@@ -30,8 +30,11 @@ DHT dht(DHTPIN, DHTTYPE);
 char text[100];
 // readings array
 float readings[] = { 0, 0, 0, 0, 0, 0};
-
-
+// slide and LEDs
+#define slidePin 5
+#define LEDPin 6
+int slideState = 0;
+int slideCnt = 0;
 
 
 void setup() {
@@ -40,11 +43,23 @@ void setup() {
   mod.begin(9600);
   pinMode(RE, OUTPUT);  pinMode(DE, OUTPUT);
   dht.begin();
+  pinMode(slidePin,INPUT);pinMode(LEDPin, OUTPUT);
 }
 
 void loop() {
   //PrintReadingsToSerial(); delay(2000);
-  GenerateReadingsAndDisplayToSerial();delay(2000);  
+  //GenerateReadingsAndDisplayToSerial();delay(2000);
+  slideState = digitalRead(slidePin);
+    if(slideState == HIGH){
+      slideCnt++;
+    }else slideCnt = 0;
+    delay(10);
+    
+    if(slideCnt > 100){
+      digitalWrite(LEDPin,HIGH);
+      GenerateReadingsAndDisplayToSerial();delay(2000);
+      digitalWrite(LEDPin,LOW);
+      slideCnt = 0;}
   }
 
 
