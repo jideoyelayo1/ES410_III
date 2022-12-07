@@ -36,6 +36,9 @@ void setup() {
 }
 
 void loop() {
+  
+}
+void GetReadings(){
   byte nitrogenValue,phosphorousValue,potassiumValue; 
   float temperature,humidity,heatIndex;
   nitrogenValue = GetNitrogen();delay(250);
