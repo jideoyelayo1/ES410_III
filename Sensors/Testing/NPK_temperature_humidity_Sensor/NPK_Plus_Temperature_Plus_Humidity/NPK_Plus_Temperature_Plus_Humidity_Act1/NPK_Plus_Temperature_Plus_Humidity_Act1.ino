@@ -28,8 +28,11 @@ DHT dht(DHTPIN, DHTTYPE);
 
 // text to be dislayed to serial
 char text[100];
-// 
+// readings array
 float readings[] = { 0, 0, 0, 0, 0, 0};
+
+
+
 
 void setup() {
   Serial.begin(9600);
@@ -41,8 +44,11 @@ void setup() {
 
 void loop() {
   //PrintReadingsToSerial(); delay(2000);
-  GenerateReadingsAndDisplayToSerial();delay(2000);
+  GenerateReadingsAndDisplayToSerial();delay(2000);  
   }
+
+
+  
 void GenerateReadingsAndDisplayToSerial(){
   Serial.println("Reading values...");
   GetReadings();
