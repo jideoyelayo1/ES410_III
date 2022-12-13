@@ -8,8 +8,8 @@ Paste the following:
 git clone https://github.com/jideoyelayo1/ES410_III.git
 The folder has been added
 
-How to add files to the github folder:
-Open the github folder
+How to add files to the github folder:<br />
+Open the github folder<br />
 Add your files to this folder
 In this folder right click and select "Git Bash Here"
 paste the following line:
