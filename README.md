@@ -20,6 +20,14 @@ The main objectives of the project are:
 * Construct a fully-working prototype of the system
 * Connect the system to Wi-Fi to receive external data, such as weather data, for improved machine learning
 * Gather data from multiple sensors (e.g. temperature, humidity, moisture levels) and build an online database to store information from multiple sensor hubs.
+<h2>Project Description</h2>
+<h3> How the sensor works </h3>
+...
+<h3> What technologies were used </h3>
+...
+<h3> Challenges faced </h3>
+...
+
 <h2> Credits </h2>
 
 * Rhys Henwood: Project Lead and GUI Designer
@@ -31,5 +39,5 @@ The main objectives of the project are:
 </br>
 This project was completed as part of the ES410 course at Warwick University. The research and development was conducted by Group 5, consisting of the individuals listed above. The project was supervised by Professor Jose Ortiz Gonzalez, who provided guidance and support throughout the project.
 
-[Link to Notion which was used to track progress through the project.](https://www.notion.so/invite/ad64deccb463d3e21adbe6e0b9dc0670409e2db7)
+[Link to Notion which was used to track progress throughout the project.](https://www.notion.so/invite/ad64deccb463d3e21adbe6e0b9dc0670409e2db7)
 
