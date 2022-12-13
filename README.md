@@ -11,14 +11,14 @@ The folder has been added<br />
 How to add files to the github folder:<br />
 Open the github folder<br />
 Add your files to this folder<br />
-In this folder right click and select "Git Bash Here"<br />
+In this folder right click and select "Git Bash Here"<br /><br />
 paste the following line:<br />
 git add --all<br />
-^ This adds all the files/updates you put in this folder<br />
+^ This adds all the files/updates you put in this folder<br /><br />
 Next paste the following line:<br />
 git commit -m"Update"<br />
 You can replace "Update" with any message you want. This is the commit message everyone will see when they look at your changes. 
-You can make iy describe what you did last or what needs to be done next to remind you or others next time you are looking at this code.<br />
+You can make iy describe what you did last or what needs to be done next to remind you or others next time you are looking at this code.<br /><br />
 Finally enter paste the following line:<br />
 git push <br />
 ^This pushs all your changes unto the online first of github<br />
