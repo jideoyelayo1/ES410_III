@@ -20,11 +20,14 @@ The main objectives of the project are:
 * Gather data from multiple sensors (e.g. temperature, humidity, moisture levels) and build an online database to store information from multiple sensor hubs.
 <h2> Credits </h2>
 
-* Rhys Henwood: Project Lead
-* Safura Colette: Sensor Research
-* Jide Oyelayo: Microcontroller and Display Research
-* Kieran Lowe: PCB Design and Data Analysis
-* Mawusi Ametewee: Machine Learning and GUI Design
-* Anjali Gokal: Testing and Prototyping
+* Rhys Henwood: Project Lead and GUI Designer
+* Safura Colette: Radio-Frequency Engineer and PCB Designer
+* Jide Oyelayo: Sensor Hardware Engineer Lead
+* Kieran Lowe: Prototyping Engineer and Mechanical Design Engineer
+* Mawusi Ametewee: Machine Learning and Cloud Computing Lead 
+* Anjali Gokal: Data Scientist and Machine Learning Data Researcher
 </br>
 This project was completed as part of the ES410 course at Warwick University. The research and development was conducted by Group 5, consisting of the individuals listed above. The project was supervised by Professor Jose Ortiz Gonzalez, who provided guidance and support throughout the project.
+
+[Link to Notion which was used to track progress through the project.](https://www.notion.so/invite/ad64deccb463d3e21adbe6e0b9dc0670409e2db7)
+
