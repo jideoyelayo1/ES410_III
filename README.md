@@ -1,4 +1,6 @@
-<h1>ES410: Project Brief – Group 5</h1>
+![logo-no-background](https://user-images.githubusercontent.com/41443216/207383351-564382f6-e482-47be-8a85-25595eddfa14.png)
+
+<h1>ES410: Insight, Interface, Intelligence Warwick – Group 5</h1>
 Low-Cost Smart Agricultural Sensing System for Small Holder Farms in South Asia
 
 <h2>Introduction</h2>
