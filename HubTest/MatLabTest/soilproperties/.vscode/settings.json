@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "soilpropertiestree_trial1_data.h": "c",
+        "soilpropertiestree_trial1_initialize.h": "c",
+        "soilpropertiestree_trial1_types.h": "c"
+    }
+}
