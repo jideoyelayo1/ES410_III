@@ -8,9 +8,9 @@
 #define DHTTYPE DHT11
 // NPK Sensor Pins
 #define RO 2
-#define RE 8
-#define DE 7
-#define DI 3
+#define RE 0
+#define DE 16
+#define DI 17
 
 // NPK sensor byteArrays
 /* Address Code = AddC, Function Code = FunC, Effective number of bytes = ENoB,
@@ -39,8 +39,8 @@ char text[100];
 // readings array
 float readings[] = { 0, 0, 0, 0, 0, 0};
 // slide and LEDs
-#define slidePin 5
-#define LEDPin 6
+#define slidePin 21
+#define LEDPin 22
 int slideState = 0;
 int slideCnt = 0;
 
