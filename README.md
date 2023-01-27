@@ -24,8 +24,12 @@ The main objectives of the project are:
 <h3> How the sensor works </h3>
 ...
 <h3> What technologies were used </h3>
+* Arduino IDE
+* Matlab
+
 ...
 <h3> Challenges faced </h3>
+NPK is given the same values repeatedly (we are assuming it is not working"
 ...
 
 <h2> Credits </h2>
