@@ -23,9 +23,9 @@ The main objectives of the project are:
 <h2>Project Description</h2>
 <h3> How the sensor works </h3>
 ...
-<h3> What technologies were used </h3>
-* Arduino IDE
-* Matlab
+<h3> What technologies were used </h3> 
+* Arduino IDE 
+* Matlab 
 
 ...
 <h3> Challenges faced </h3>
