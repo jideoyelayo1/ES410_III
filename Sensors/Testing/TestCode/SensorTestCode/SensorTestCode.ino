@@ -16,14 +16,14 @@
 /* Address Code = AddC, Function Code = FunC, Effective number of bytes = ENoB,
  *  Nitrogen/Phosphorus/Potassium content = NPKC, CRC_L = CRCL, CRC_H = CRCH
  */
-/*
+
 const byte nitro[] = {0x01,0x03, 0x00, 0x1e, 0x00, 0x01, 0xb5, 0xcc};
 const byte phos[]  = {0x01,0x03, 0x00, 0x1f, 0x00, 0x01, 0xe4, 0x0c};
-const byte pota[]  = {0x01,0x03, 0x00, 0x20, 0x00, 0x01, 0x85, 0xc0};*/
+const byte pota[]  = {0x01,0x03, 0x00, 0x20, 0x00, 0x01, 0x85, 0xc0};
 
-const byte nitro[] = {0x01,0x03, 0x00, 0x1e, 0x00, 0x01, 0xe4, 0x0c};
+/*const byte nitro[] = {0x01,0x03, 0x00, 0x1e, 0x00, 0x01, 0xe4, 0x0c};
 const byte phos[] = {0x01,0x03, 0x00, 0x1f, 0x00, 0x01, 0xb5, 0xcc};
-const byte pota[] = {0x01,0x03, 0x00, 0x20, 0x00, 0x01, 0x85, 0xc0};
+const byte pota[] = {0x01,0x03, 0x00, 0x20, 0x00, 0x01, 0x85, 0xc0};*/
 
 const int LowRng = 5;
 const int UppRng = 250;
@@ -120,7 +120,7 @@ byte GetNitrogen(){
     for(byte i=0;i<7;i++){values[i] = mod.read();}
   }
   times++;
-  Serial.println(*values);
+  //Serial.println(*values);
   if( (*values < LowRng && times < reps) || (*values > UppRng && times < reps)) {delay(25);goto NStart;}
   return *values;
 }
@@ -135,7 +135,7 @@ byte GetPhosphorous(){
     for(byte i=0;i<7;i++){values[i] = mod.read();}
   }
   times++;
-  Serial.println(*values);
+  //Serial.println(*values);
   if( (*values < LowRng && times < reps) || (*values > UppRng && times < reps)) {delay(25);goto KStart;}
   return *values;
 }
@@ -150,7 +150,7 @@ byte GetPotassium(){
     for(byte i=0;i<7;i++){values[i] = mod.read();}
   }
   times++;
-  Serial.println(*values);
+  //Serial.println(*values);
   if( (*values < LowRng && times < reps) || (*values > UppRng && times < reps)) {delay(25);goto PStart;}
   return *values;
 }

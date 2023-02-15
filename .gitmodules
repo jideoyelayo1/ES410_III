@@ -1,0 +1,3 @@
+[submodule "App/FarmingAppv1.0.0/App/FarmingAppv1.0.0/FarmingWarwickApp"]
+	path = App/FarmingAppv1.0.0/App/FarmingAppv1.0.0/FarmingWarwickApp
+	url = https://github.com/jideoyelayo1/FarmingWarwickApp.git

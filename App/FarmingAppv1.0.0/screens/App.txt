@@ -1,0 +1,43 @@
+import { StatusBar } from 'expo-status-bar';
+import { StyleSheet, Text, View,SafeAreaView,Image,Button } from 'react-native';
+import {NavigationContainer} from '@react-navigation/native';
+import { createStackNavigator } from 'react-navigation-stack';
+import Navigator from './routes/homeStack';
+
+export default function App({navigator}) {
+
+  const toReviewDetails = () => {    navigation.push('ReviewDetails');  }
+  const toAbout = () => {    navigation.push('About');  }
+  const toCalc = () => {    navigation.push('Calculator');  }
+  const toProductList = () => {    navigation.push('Product_List');  }
+  const toContacts = () => {    navigation.push('Contacts');  }
+
+  return (
+    <NavigationContainer>
+
+    <SafeAreaView style={styles.container}>
+      <Image source={require("./assets/logo-no-background.png")}
+      style={{width: "100%", height:160}} 
+      />
+      <StatusBar style="auto" />
+      <Navigator style={navigator}/>
+    </SafeAreaView>
+    </NavigationContainer>
+    
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    padding:20,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  navigator: {
+    width: '100%',
+    height: 200,
+    backgroundColor:"blue"
+  }
+});
