@@ -9,17 +9,17 @@ Low-Cost Smart Agricultural Sensing System for Small Holder Farms in South Asia
 <h2>Objectives</h2>
 The main objectives of the project are:
 	
-- [x]  Research different options for sensors that can measure nitrogen levels in soil
-- [x]  Research different microcontrollers, displays, and machine learning models that can be used in the central hub
-- [x]  Design a printed circuit board (PCB) that can integrate the sensors, microcontrollers, RF transceiver, and power source
-- [x]  Design a GUI that can take user input and clearly display data
-- [x]  Develop methods for analyzing sensor data and use machine learning techniques to identify patterns and predict soil health
-- [x]  Test the integrated system and provide a proof of concept of the design
+- [x]  Research different options for sensors that can measure nitrogen levels in soil (WP1)
+- [x]  Research different microcontrollers, displays, and machine learning models that can be used in the central hub (WP2)
+- [x]  Design a printed circuit board (PCB) that can integrate the sensors, microcontrollers, RF transceiver, and power source (WP1 & WP2)
+- [x]  Design a GUI that can take user input and clearly display data (WP2)
+- [x]  Develop methods for analyzing sensor data and use machine learning techniques to identify patterns and predict soil health (WP3)
+- [x]  Test the integrated system and provide a proof of concept of the design (WP2)
 <h2>Stretch Goals</h2>
 
-- [ ]  Construct a fully-working prototype of the system
-- [ ]  Connect the system to Wi-Fi to receive external data, such as weather data, for improved machine learning
-- [x]  Gather data from multiple sensors (e.g. temperature, humidity, moisture levels) and build an online database to store information from multiple sensor hubs.
+- [ ]  Construct a fully-working prototype of the system (All)
+- [ ]  Connect the system to Wi-Fi to receive external data, such as weather data, for improved machine learning (WP2 & WP3)
+- [x]  Gather data from multiple sensors (e.g. temperature, humidity, moisture levels) and build an online database to store information from multiple sensor hubs. (WP2)
 <h2>Project Description</h2>
 <h3> How the sensors works </h3>
 <h4>DHT11</h4>
