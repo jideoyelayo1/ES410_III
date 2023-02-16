@@ -1,0 +1,278 @@
+commit 0ca27f06f1caa1b472c634fe768ade6a1edf4245
+Author: Jide Oyelayo <JideOyelayo1@Gmail.com>
+Date:   Thu Feb 16 19:28:23 2023 +0000
+
+    File reaarangement
+
+commit 82dfc4f14bc280ccb7a7ac738f4d6021cafcd6df
+Author: anjaligokal <92986457+anjaligokal@users.noreply.github.com>
+Date:   Wed Feb 15 14:55:06 2023 +0000
+
+    Add files via upload
+
+commit f87498ffcd2e97f10cd18b309a024db6e39a0847
+Author: anjaligokal <92986457+anjaligokal@users.noreply.github.com>
+Date:   Wed Feb 15 14:38:23 2023 +0000
+
+    Add files via upload
+
+commit 80ceafeef059eecac066e8679e59d0bdf2598904
+Author: Jide Oyelayo <JideOyelayo1@Gmail.com>
+Date:   Wed Feb 15 11:43:51 2023 +0000
+
+    App
+
+commit 5165f3bf8f14bd71488d558fde3392c842d7f583
+Author: Jide <Jide.Oyelayo@warwick.ac.uk>
+Date:   Fri Jan 27 14:30:34 2023 +0000
+
+    Update README.md
+
+commit ce15ee4cdd8d87a2e0934bd2e24312b937436447
+Author: Jide <Jide.Oyelayo@warwick.ac.uk>
+Date:   Fri Jan 27 14:29:23 2023 +0000
+
+    Update README.md
+
+commit 81b527b52d2adc5fe8bff3b3b7e506e39050066b
+Author: JideO <JideOyelayo1@Gmail.com>
+Date:   Fri Jan 27 14:27:20 2023 +0000
+
+    fixed sensor code
+
+commit 7e2b3fee2fbb6aacaa25c1af66916c91534ec861
+Author: rhenwood <119430547+rhenwood@users.noreply.github.com>
+Date:   Sat Jan 21 09:50:35 2023 +0000
+
+    Add files via upload
+    
+    Test of Sensor code on an ESP32 microcontroller
+
+commit 01d93f450d3470df0b06a1ac2546000f30bf6397
+Merge: ad2cfea f28497b
+Author: JideO <JideOyelayo1@Gmail.com>
+Date:   Wed Jan 18 09:17:12 2023 +0000
+
+    Merge branch 'main' of https://github.com/jideoyelayo1/ES410_III
+
+commit ad2cfea8ef5de22e123bc2df20227a3d0a88ee3a
+Author: JideO <JideOyelayo1@Gmail.com>
+Date:   Wed Jan 18 09:16:43 2023 +0000
+
+    update - repeats measurement if not in range\nFuture Update: increase measurement time
+
+commit f28497b029cbd41881405b8ce249f1ddefa87c45
+Author: Rhys Henwood <rhys.henwood@warwick.ac.uk>
+Date:   Thu Dec 22 15:56:47 2022 +0000
+
+    Initial commit of Central Hub Test Code
+
+commit 19658ada37d0ad1f771d2fda6aaf9c9ae842c1ca
+Author: SafuraColette <119430316+SafuraColette@users.noreply.github.com>
+Date:   Fri Dec 16 11:54:02 2022 +0000
+
+    Add files via upload
+    
+    Example code for transmitting and receiving sensor data measuring altitude, pressure and temperature
+
+commit 164765dc259d0679c4d2c3c52a3c9f5e6ea96d59
+Author: Jide <JideOyelayo1@Gmail.com>
+Date:   Tue Dec 13 22:44:40 2022 +0000
+
+    Add files via upload
+
+commit a871555beb0e3d68fca50e1eb41afb5d27ad7c7a
+Author: Jide <Jide.Oyelayo@warwick.ac.uk>
+Date:   Tue Dec 13 16:16:11 2022 +0000
+
+    Update README.md
+
+commit db0a0bff0058983f4b1cb30668004cada00793c6
+Author: Jide <Jide.Oyelayo@warwick.ac.uk>
+Date:   Tue Dec 13 16:04:23 2022 +0000
+
+    added Logo
+
+commit a525f394c4c3562ce3aad826dc4968daabd3b5a8
+Author: Jide <Jide.Oyelayo@warwick.ac.uk>
+Date:   Tue Dec 13 15:50:44 2022 +0000
+
+    I mixed up the names and titles
+
+commit 1d44a24bb94d4ac7b7453b4ae8649b545f848ea2
+Author: Jide <Jide.Oyelayo@warwick.ac.uk>
+Date:   Tue Dec 13 15:40:23 2022 +0000
+
+    Finished for now, Will update as time goes on
+
+commit 42a129321a82993ffe58e8a9b96cc47806cbff2b
+Author: Jide <Jide.Oyelayo@warwick.ac.uk>
+Date:   Tue Dec 13 15:37:35 2022 +0000
+
+    Update README.md
+
+commit 05789c26e131e293591a4c0c35d044a8a87b7a5e
+Author: Jide <Jide.Oyelayo@warwick.ac.uk>
+Date:   Tue Dec 13 15:34:28 2022 +0000
+
+    Update README.md
+    
+    I will finish it later
+
+commit 0bef4f59f9b87fe8b1a05e7be66f911f8d7dacf0
+Author: Jide <JideOyelayo1@Gmail.com>
+Date:   Tue Dec 13 15:13:37 2022 +0000
+
+    Create README.md
+
+commit c2a5ec37fe430ee1f9936dfd839096cb46e2eda6
+Author: Jide <JideOyelayo1@Gmail.com>
+Date:   Tue Dec 13 15:13:24 2022 +0000
+
+    Rename README.md to GitHubHelp.md
+
+commit ba1fb2258095e8a8ea6207a407dd31be7c1d649f
+Author: Jide <JideOyelayo1@Gmail.com>
+Date:   Tue Dec 13 15:12:47 2022 +0000
+
+    Update README.md
+
+commit 74f60204b1ba4d2563d4b6787f86e44f58534d53
+Author: Jide <JideOyelayo1@Gmail.com>
+Date:   Tue Dec 13 15:10:56 2022 +0000
+
+    Update README.md
+
+commit 62568906a7844f4c8c46b143576057fdd0604c58
+Author: Jide <JideOyelayo1@Gmail.com>
+Date:   Tue Dec 13 15:09:54 2022 +0000
+
+    Update README.md
+
+commit 3eee0c82c87d3b6d89317766952a996ff3b4ef94
+Author: Jide <JideOyelayo1@Gmail.com>
+Date:   Tue Dec 13 15:07:17 2022 +0000
+
+    Update README.md
+
+commit 11db406c74cdd79b1a1ebc1fb8b98f05c46eba04
+Author: Jide <JideOyelayo1@Gmail.com>
+Date:   Tue Dec 13 15:06:33 2022 +0000
+
+    Update README.md
+
+commit a38cb17df7cfe12a0c014b43db99ce606c5535f1
+Author: Jide <JideOyelayo1@Gmail.com>
+Date:   Tue Dec 13 15:05:40 2022 +0000
+
+    Update README.md
+
+commit b184dbf6d700ff71df730526ca03d57d5b473582
+Author: Jide <JideOyelayo1@Gmail.com>
+Date:   Tue Dec 13 15:04:55 2022 +0000
+
+    How to GitHub
+
+commit c47fb25d52b7c50df7d1fe7bd6a92eff7fa80722
+Author: JideO <JideOyelayo1@Gmail.com>
+Date:   Wed Dec 7 22:28:54 2022 +0000
+
+    readings triggered by switch, need to implement average
+
+commit 1a972be7ef37306ed6b034bd7238266dd2f00abc
+Author: JideO <JideOyelayo1@Gmail.com>
+Date:   Wed Dec 7 14:46:46 2022 +0000
+
+    need to trigger readings with a button
+
+commit 44acb628e77863ccf82df58d92a714f3503072ac
+Author: JideO <JideOyelayo1@Gmail.com>
+Date:   Wed Dec 7 14:23:46 2022 +0000
+
+    Update
+
+commit 7428dc765530ecd062b259e8eda8cf960b4426ee
+Author: JideO <JideOyelayo1@Gmail.com>
+Date:   Wed Dec 7 13:43:14 2022 +0000
+
+    Update
+
+commit 6bb6feb5579233e43a595725b5f927c0b4f5cae7
+Author: JideO <JideOyelayo1@Gmail.com>
+Date:   Wed Dec 7 13:41:29 2022 +0000
+
+    Update
+
+commit 4b014fb165a1a7a3d3e228bfe9167aea07741f2e
+Author: JideO <JideOyelayo1@Gmail.com>
+Date:   Tue Dec 6 23:33:44 2022 +0000
+
+    Need to change NPK address
+
+commit e151ee25a82754143b46621d7809a7e54b8972e6
+Author: JideO <JideOyelayo1@Gmail.com>
+Date:   Tue Dec 6 23:31:17 2022 +0000
+
+    Need to check NPK address
+
+commit 8f6fe702619a819d67d5d6eab58ec9bd9665fbad
+Author: JideO <JideOyelayo1@Gmail.com>
+Date:   Tue Dec 6 23:24:37 2022 +0000
+
+    Update
+
+commit af0610877065bf369eaaff90a9af532534502dd6
+Author: JideO <JideOyelayo1@Gmail.com>
+Date:   Tue Dec 6 23:21:43 2022 +0000
+
+    Update
+
+commit 0ecff445c6a8a1be9ee478a77cbf02e53250243a
+Author: JideO <JideOyelayo1@Gmail.com>
+Date:   Tue Dec 6 23:10:13 2022 +0000
+
+    Update
+
+commit f26dca90b671d909d27dd1b4ce27ac1b95561d47
+Author: JideO <JideOyelayo1@Gmail.com>
+Date:   Tue Dec 6 23:05:58 2022 +0000
+
+    Update
+
+commit 7fae3fabcc5ab904e468f85926088a1b7dbf37f5
+Author: JideO <JideOyelayo1@Gmail.com>
+Date:   Tue Dec 6 23:02:37 2022 +0000
+
+    Update
+
+commit 3867c1a31686c243a5843188991b908801d579b3
+Author: JideO <JideOyelayo1@Gmail.com>
+Date:   Tue Dec 6 22:57:20 2022 +0000
+
+    Starting NPK + temperature + humidity sensor code
+
+commit 7fbd637e3640cff288a82356186dfe1c52fd8e57
+Author: rhenwood <119430547+rhenwood@users.noreply.github.com>
+Date:   Wed Nov 30 20:13:51 2022 +0000
+
+    Added initial code for the Central Hub
+    
+    Include the libraries and initial functions to drive the LCD display with an ESP32.
+
+commit 4516bf04cdf9712aff11ab662d740e74d3c87b2f
+Author: OYELAYO <u1901260@live.warwick.ac.uk>
+Date:   Tue Nov 29 16:03:49 2022 +0000
+
+    added tmp code
+
+commit b55be8597ee8af8593483c192cfe9ff04f85c563
+Author: Jide <JideOyelayo1@Gmail.com>
+Date:   Tue Nov 29 14:44:18 2022 +0000
+
+    Update README.md
+
+commit 20bd3c75adf58ae437e3af9eb2d83756c8544a58
+Author: mawusix <117100042+mawusix@users.noreply.github.com>
+Date:   Tue Nov 29 14:43:47 2022 +0000
+
+    Create README.md
