@@ -41,6 +41,7 @@ The main objectives of the project are:
 * Issues converting MATLAB ML mode to C ( the MATLAB to C code result was trying to write into illegal memory)
 * React-Native mobile App issue with pulishing (Unable to publish to expo without SDK error issue)
 * React-Native mobile App requried a lot of non native libraries and dependancies which led to errors ( but still was preferable to Flutter because of knowlegde of javascript in the group) 
+* Issue with running the app on the web because of react-native imports. A website in react Js is undevelopment.
 * Issue with completion of mechanical goals - ...
 * 
 
