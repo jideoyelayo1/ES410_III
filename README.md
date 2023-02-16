@@ -9,28 +9,43 @@ Low-Cost Smart Agricultural Sensing System for Small Holder Farms in South Asia
 <h2>Objectives</h2>
 The main objectives of the project are:
 	
-* Research different options for sensors that can measure nitrogen levels in soil
-* Research different microcontrollers, displays, and machine learning models that can be used in the central hub
-* Design a printed circuit board (PCB) that can integrate the sensors, microcontrollers, RF transceiver, and power source
-* Design a GUI that can take user input and clearly display data
-* Develop methods for analyzing sensor data and use machine learning techniques to identify patterns and predict soil health
-* Test the integrated system and provide a proof of concept of the design
+- [x]  Research different options for sensors that can measure nitrogen levels in soil
+- [x]  Research different microcontrollers, displays, and machine learning models that can be used in the central hub
+- [x]  Design a printed circuit board (PCB) that can integrate the sensors, microcontrollers, RF transceiver, and power source
+- [x]  Design a GUI that can take user input and clearly display data
+- [x]  Develop methods for analyzing sensor data and use machine learning techniques to identify patterns and predict soil health
+- [x]  Test the integrated system and provide a proof of concept of the design
 <h2>Stretch Goals</h2>
 
-* Construct a fully-working prototype of the system
-* Connect the system to Wi-Fi to receive external data, such as weather data, for improved machine learning
-* Gather data from multiple sensors (e.g. temperature, humidity, moisture levels) and build an online database to store information from multiple sensor hubs.
+- [ ]  Construct a fully-working prototype of the system
+- [ ]  Connect the system to Wi-Fi to receive external data, such as weather data, for improved machine learning
+- [x]  Gather data from multiple sensors (e.g. temperature, humidity, moisture levels) and build an online database to store information from multiple sensor hubs.
 <h2>Project Description</h2>
-<h3> How the sensor works </h3>
-...
-<h3> What technologies were used </h3> 
-* Arduino IDE 
+<h3> How the sensors works </h3>
+<h4>DHT11</h4>
+
+<h3> What technologies were used </h3>
+
+* Arduino IDE (C/ C++)
 * Matlab 
+* React Native (React JS)
+* AutoDesk Fusion 360
+* ...
 
 ...
 <h3> Challenges faced </h3>
-NPK is given the same values repeatedly (we are assuming it is not working"
+
+* NPK is given the same values repeatedly (we are assuming it is not working)
+* Due to the cost restrictions it is difficult to  accurately test the NPK sensor because that would require buying another NPK sensor
+* Issues with MCU (only 2/3 boards work) which lead to a problems with RF testing (was resolved by changing the board)
+* Issues converting MATLAB ML mode to C ( the MATLAB to C code result was trying to write into illegal memory)
+* React-Native mobile App issue with pulishing (Unable to publish to expo without SDK error issue)
+* React-Native mobile App requried a lot of non native libraries and dependancies which led to errors ( but still was preferable to Flutter because of knowlegde of javascript in the group) 
+* Issue with completion of mechanical goals - ...
+* 
+
 ...
+
 
 <h2> Credits </h2>
 
