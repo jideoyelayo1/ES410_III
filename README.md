@@ -29,6 +29,7 @@ The main objectives of the project are:
 * Arduino IDE (C/ C++)
 * Matlab 
 * React Native (React JS)
+* Altium 
 * AutoDesk Fusion 360
 * ...
 
