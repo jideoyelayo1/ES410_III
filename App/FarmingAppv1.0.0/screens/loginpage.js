@@ -17,7 +17,7 @@ export default function LoginPage({ navigation }) {
 
 
   const toLoginMenu = () => {
-    //retrieveData();
+    
     
     if(user !== "Jim" && pwd !== "Pass"){
       alert("Invalid Username or Password");
@@ -30,23 +30,7 @@ export default function LoginPage({ navigation }) {
   }
 
   const retrieveData = async () => {
-    try {
-      const response = await fetch('https://webhook.site/cb184155-4b78-4189-88aa-082822ad1c51', {
-        method: 'get',
-        mode: 'no-cors',
-        headers: {
-          Accept: 'application/json',
-          'Content-Type': 'application/json',
-        },
-        
-      });
-      alert("Sucess! 0.5")
-      const data = await response.json();
-      alert("Sucess!");
-      return data;
-    } catch (e) {
-      alert(e);
-    }
+
   };
 
   

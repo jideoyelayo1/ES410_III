@@ -49,35 +49,28 @@ export default function SignUp({ navigation }) {
     const account ={
       "name":user,
       "password":pwd,
-      "email":email,
       "iD":Math.floor(Math.random() * (1000000 - 0 + 1)) + 0,
       "DeviceIDs":[]
     }
 
-    postData(account) 
+    //postData(account) 
     setUser("");setCnfPwd("");setPwd("");setEmail("");setChecked(false); 
     
   
   
   }
 
-  const postData = async (account) => {
-    try {
-      await fetch('https://webhook.site/cb184155-4b78-4189-88aa-082822ad1c51', {
-        method: 'post',
-        mode: 'no-cors',
-        headers: {
-          Accept: 'application/json',
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          account
-        }),
-      });
-    } catch (e) {
-      alert(e);
-    }
-    alert("uploaded")
+  const postData = async (newAccount) => {
+      fetch('http://localhost:3000/accounts', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(newAccount)
+  })
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(error => console.error(error));
   };
   
 

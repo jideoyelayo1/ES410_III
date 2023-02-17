@@ -87,7 +87,7 @@ export default function About({ navigation }) {
         This project was completed as part of the ES410 course at Warwick University. The research and development was conducted by Group 5, consisting of the individuals listed above. The project was supervised by Professor Jose Ortiz Gonzalez, who provided guidance and support throughout the project.
       </Text>
       <Text style={globalStyles.links} onPress={gotoGithub}>
-      Visit Our GitHub Repo
+      Visit Our GitHub Repo{"\n"}
       </Text>
       <Text 
         style={globalStyles.links}
@@ -95,7 +95,7 @@ export default function About({ navigation }) {
       >
         Link to Notion which was used to track progress throughout the project.
       </Text>
-
+      <Text>{"\n\n"}</Text>
       <Button title='back to home screen' color='#c9efc7' onPress={pressHandler} />
       <Text>{"\n\n\n"}</Text>
       </SafeAreaView>

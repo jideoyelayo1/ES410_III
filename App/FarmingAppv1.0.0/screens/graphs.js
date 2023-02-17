@@ -22,7 +22,7 @@ export default function Graph({ navigation }) {
       <K_vals/>
       <Temperature/>
       <Humidity/>
-      <Button title='back' onPress={pressHandler} />
+      <Button title='back' color='#c9efc7' onPress={pressHandler} />
 
       </SafeAreaView>
     </ScrollView>

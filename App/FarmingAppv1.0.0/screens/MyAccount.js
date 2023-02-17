@@ -11,7 +11,7 @@ export default function MyAccount({ navigation }) {
   return (
     <View style={globalStyles.container}>
       <Text>MyAccount Screen</Text>
-      <Button title='back' onPress={pressHandler} />
+      <Button title='back' color='#c9efc7' onPress={pressHandler} />
     </View>
   );
 }

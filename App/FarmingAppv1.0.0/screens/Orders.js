@@ -44,7 +44,7 @@ export default function MyOrders({ navigation }) {
         
       />
       
-      <Button title='back' onPress={pressHandler} />
+      <Button title='back' color='#c9efc7' onPress={pressHandler} />
     </View>
   );
 }
