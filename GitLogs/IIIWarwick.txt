@@ -1,0 +1,119 @@
+commit 8a7ecc67a795b03ac33bce5215ad77aac29d9c08
+Author: Jide Oyelayo <JideOyelayo1@Gmail.com>
+Date:   Fri Feb 17 22:54:16 2023 +0000
+
+    2.0.0
+
+commit 7672aee1dcf6b167f345e05c113a5a91f129aea4
+Author: Jide Oyelayo <JideOyelayo1@Gmail.com>
+Date:   Fri Feb 17 22:53:59 2023 +0000
+
+    fixed it
+
+commit bb79a868fad2634c32fa284ab1b3b169da02c44c
+Author: Jide Oyelayo <JideOyelayo1@Gmail.com>
+Date:   Tue Feb 14 01:18:47 2023 +0000
+
+    added My orders example
+
+commit f8314314054920ff45fd8847204157d9577faba3
+Author: Jide Oyelayo <JideOyelayo1@Gmail.com>
+Date:   Tue Feb 14 00:50:38 2023 +0000
+
+    ready to present to rest of group
+
+commit e81d4b619f4978be3049f50c1ca089680c1c793d
+Author: Jide Oyelayo <JideOyelayo1@Gmail.com>
+Date:   Mon Feb 13 23:22:52 2023 +0000
+
+    All non API components are working
+
+commit 1fad81ddf052c63407a40303c90437da6d7db349
+Author: Jide Oyelayo <JideOyelayo1@Gmail.com>
+Date:   Mon Feb 13 20:19:16 2023 +0000
+
+    need to fix login (might not do it)
+
+commit 7d750c6ecbe991504994a60011387abdf63deed8
+Author: Jide Oyelayo <JideOyelayo1@Gmail.com>
+Date:   Mon Feb 13 12:37:13 2023 +0000
+
+    need to fix api get
+
+commit fa11953a93c41bf3df438628f2ccc5c6a188fba7
+Author: Jide Oyelayo <JideOyelayo1@Gmail.com>
+Date:   Sun Feb 12 22:35:40 2023 +0000
+
+    need to add json for user,pwd,ID
+
+commit 52ff052bed9c66883ac899ec9ea8ec3f54df0d3f
+Author: Jide Oyelayo <JideOyelayo1@Gmail.com>
+Date:   Sun Feb 12 16:39:00 2023 +0000
+
+    Almost down - need to fill pages and add styling
+
+commit 7062a34f1166cdf7e80159f13217893e2c5ff8f4
+Author: Jide Oyelayo <JideOyelayo1@Gmail.com>
+Date:   Sun Feb 12 15:18:45 2023 +0000
+
+    Graphs working
+
+commit b3c072fb493f557abbfff3471622a34a5a1c74c5
+Author: Jide Oyelayo <JideOyelayo1@Gmail.com>
+Date:   Sun Feb 12 13:44:34 2023 +0000
+
+    naci
+
+commit e962f48a532445113a4094c0ce18e439e25cb3a6
+Author: Jide Oyelayo <JideOyelayo1@Gmail.com>
+Date:   Sun Feb 12 13:41:27 2023 +0000
+
+    i know how to navi now YAYYYY
+
+commit 8f44baf307cbcf4e269b8d2436fbe514bd79d0f6
+Author: Jide Oyelayo <JideOyelayo1@Gmail.com>
+Date:   Sun Feb 12 02:22:10 2023 +0000
+
+    made calc work
+
+commit cc66bd4385aeba61f079e8775e5e4bce2e75f9ff
+Author: Jide Oyelayo <JideOyelayo1@Gmail.com>
+Date:   Sat Feb 11 18:24:31 2023 +0000
+
+    up
+
+commit b2ea24cbcdad667ee2dce42b4e9b781f97c1866b
+Author: Jide Oyelayo <JideOyelayo1@Gmail.com>
+Date:   Sat Feb 11 05:07:22 2023 +0000
+
+    invalid hook call
+
+commit 8ac7d0e7c8618b0e826ffe0bd1e1509819ad9be3
+Author: Jide Oyelayo <JideOyelayo1@Gmail.com>
+Date:   Sat Feb 11 03:51:37 2023 +0000
+
+    still too narrow
+
+commit 7abb71992f9267f4bea19a4c473adeb2ff603c32
+Author: Jide Oyelayo <JideOyelayo1@Gmail.com>
+Date:   Sat Feb 11 02:29:47 2023 +0000
+
+    The nav is too narrow
+
+commit e7d31c998fc9cbfad575059792e5a8ea10cf2c13
+Author: Jide Oyelayo <JideOyelayo1@Gmail.com>
+Date:   Sat Feb 11 00:57:07 2023 +0000
+
+    added pages not including login
+
+commit 304b0dfe1271b5b45d8a107ca17b4397df1c6751
+Author: Jide Oyelayo <JideOyelayo1@Gmail.com>
+Date:   Sat Feb 11 00:33:29 2023 +0000
+
+    progress tbh
+
+commit be161faf058d544d9d8d95becec56ee84170478a
+Author: Jide Oyelayo <JideOyelayo1@Gmail.com>
+Date:   Fri Feb 10 21:17:39 2023 +0000
+
+    Created a new Expo app

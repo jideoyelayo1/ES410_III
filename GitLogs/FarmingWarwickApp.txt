@@ -1,0 +1,29 @@
+commit d83ee1b5daa9e655f25fe5a037d5f166ea65a04f
+Author: Jide Oyelayo <JideOyelayo1@Gmail.com>
+Date:   Fri Feb 17 13:49:39 2023 +0000
+
+    fixed all link colours
+
+commit 4a7d6b2be746980f6bca508c650c16e901dc19e4
+Author: Jide Oyelayo <JideOyelayo1@Gmail.com>
+Date:   Thu Feb 16 19:19:47 2023 +0000
+
+    change link colours
+
+commit 2003e4e64c906c4e375b5360833c7c9bc658d27c
+Author: Jide Oyelayo <JideOyelayo1@Gmail.com>
+Date:   Wed Feb 15 20:48:39 2023 +0000
+
+    final commit?
+
+commit 09cb2cb6c1119bfd33e72b6492d77bf12a17ebab
+Author: Jide Oyelayo <JideOyelayo1@Gmail.com>
+Date:   Tue Feb 14 20:35:12 2023 +0000
+
+    It works so dont touch it
+
+commit 2d56c27097e460dbea30149de29afa093460e326
+Author: Jide Oyelayo <JideOyelayo1@Gmail.com>
+Date:   Tue Feb 14 20:22:55 2023 +0000
+
+    Created a new Expo app
