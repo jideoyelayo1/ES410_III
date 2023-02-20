@@ -4,4 +4,4 @@ ctree = fitctree(sensordata, labels); % creates decision tree based on training 
 view(ctree);
 view(ctree, 'Mode','graph'); % plots trained decision tree model
 
-saveLearnerForCoder(ctree,'TrainingDatasetv4'); % saves model for C-code generation
+saveLearnerForCoder(ctree,'detectsoilproperties_trainingdata'); % saves model for C-code generation
