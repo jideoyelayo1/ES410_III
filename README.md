@@ -21,7 +21,7 @@ The main objectives of the project are:
 - [ ]  Connect the system to Wi-Fi to receive external data, such as weather data, for improved machine learning (WP2 & WP3)
 - [x]  Gather data from multiple sensors (e.g. temperature, humidity, moisture levels) and build an online database to store information from multiple sensor hubs. (WP2)
 <h2>Project Description</h2>
-<h3> How the sensors works </h3>
+
 <h4>DHT11</h4>
 
 <h3> What technologies were used </h3>
