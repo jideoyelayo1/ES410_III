@@ -30,8 +30,7 @@ The main objectives of the project are:
 * Matlab 
 * React Native (React JS)
 * Altium 
-* AutoDesk Fusion 360
-* ...
+* AutoDesk Fusion 360 
 
 ...
 <h3> Challenges faced </h3>
