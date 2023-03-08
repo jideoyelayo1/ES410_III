@@ -22,8 +22,6 @@ The main objectives of the project are:
 - [x]  Gather data from multiple sensors (e.g. temperature, humidity, moisture levels) and build an online database to store information from multiple sensor hubs. (WP2)
 <h2>Project Description</h2>
 
-...
-
 <h3> What technologies were used </h3>
 
 * Arduino IDE (C/ C++)
@@ -32,7 +30,7 @@ The main objectives of the project are:
 * Altium 
 * AutoDesk Fusion 360 
 
-...
+
 <h3> Challenges faced </h3>
 
 * NPK is given the same values repeatedly (we are assuming it is not working)
@@ -43,10 +41,6 @@ The main objectives of the project are:
 * React-Native mobile App requried a lot of non native libraries and dependancies which led to errors ( but still was preferable to Flutter because of knowlegde of javascript in the group) 
 * Issue with running the app on the web because of react-native imports. A website in react Js is undevelopment.
 * Issue with completion of mechanical goals - ...
-* 
-
-...
-
 
 <h2> Credits </h2>
 
