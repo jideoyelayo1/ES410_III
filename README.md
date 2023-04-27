@@ -46,7 +46,7 @@ The main objectives of the project are:
 
 * Rhys Henwood: Project Lead and GUI Designer
 * Safura Colette: Radio-Frequency Engineer and PCB Designer
-* Jide Oyelayo: Sensor Hardware Engineer Lead
+* Jide Oyelayo: Sensor Hardware Engineer Lead and Mobile Development Lead
 * Kieran Lowe: Prototyping Engineer and Mechanical Design Engineer
 * Mawusi Ametewee: Machine Learning and Cloud Computing Lead 
 * Anjali Gokal: Data Scientist and Machine Learning Data Researcher
